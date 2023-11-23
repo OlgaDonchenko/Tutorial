@@ -1,0 +1,197 @@
+/* ========== COMMON STYLES ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Manrope;
+    color: #FCF9F9;
+    background: var(--black, #1C2225);
+    
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.section-title {
+    text-align: center;
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+    color: var(--white, #FCF9F9);
+    margin-bottom: 40px;
+}
+
+/* ============== /COMMON STYLES ============== */
+.our-colection {
+    padding-top: 18px;
+      
+}
+.our-colection-list {
+display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+.our-colection-card-img{
+    border-radius: 4px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.our-colection-clothes-name {
+overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 342px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--white, #FCF9F9);
+}
+
+.our-colection-price {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.05em;
+        color: rgba(252, 249, 249, 0.40);
+}
+.our-colection-card-item{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+}
+.our-colection-information {
+display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+
+@media screen and (min-width: 375px) {
+.container {
+        width: 375px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+   
+}
+@media screen and (min-width: 768px) {
+
+.container {
+        width: 768px;
+        padding: 0 32px;
+    }
+        .section-title {
+        font-size: 44px;
+        line-height: 1.45;
+}
+.our-colection-list {
+    width: 704px;
+    flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+        justify-content: center;
+        margin: auto;
+}
+.our-colection-card-item {
+    width: calc((100% - 20px) / 2);
+}
+.our-colection-clothes-name {
+    font-size: 18px;
+
+}
+.our-colection-price {
+    font-size: 18px;
+}
+}
+@media screen and (min-width: 1280px) {
+
+    
+.container {
+    width: 1280px;
+    padding: 0 100px;
+    }
+
+.section-title {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.our-colection-list {
+    width: 1082px;
+    row-gap: 40px;
+    }
+.our-colection-card-item {
+    width: calc((100% - 40px) / 3);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+.container {
+    width: 1440px;
+    }
+.our-colection-list {
+    width: 1240px;}
+   
+}

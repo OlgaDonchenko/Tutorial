@@ -80,17 +80,22 @@ body {
 .our-colection {
     padding-top: 18px;
     padding-bottom: 80px;
+        /* background-image: url(../images/elementsmob.png);
+            background-repeat: no-repeat;
+            background-size: 199px 177px;
+            background-position: 0 10%; */
+
  
       }
-      .our-colection-box {
-        background-image: url(../images/elementsmob.png);
-            background-repeat: no-repeat;
-            background-position: 0 10%;
+.our-colection-box {
+    background-image: url(../images/elementsmob.png);
+    background-repeat: no-repeat;
+    background-position: 0 10%;
 
       }
 
 .our-colection-list {
-display: flex;
+    display: flex;
     width: 335px;
     flex-direction: column;
     align-items: flex-start;
@@ -100,7 +105,7 @@ display: flex;
 .our-colection-card-img{
     border-radius: 4px;
     height: auto;
-        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(../images/elementsmob.png), lightgray 50% / cover no-repeat;
 
 }
 .our-colection-clothes-name {
@@ -150,8 +155,8 @@ display: flex;
 @media screen and (min-width: 768px) {
 
 .container {
-        width: 768px;
-        padding: 0 32px;
+        width: 744px;
+        /* padding: 0 32px; */
     }
         .section-title {
         font-size: 44px;
@@ -195,7 +200,7 @@ display: flex;
     
 .container {
     width: 1280px;
-    padding: 0 100px;
+    /* padding: 0 100px; */
     }
 .our-colection {
     padding-top: 70px;

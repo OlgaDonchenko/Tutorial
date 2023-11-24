@@ -139,17 +139,17 @@ display: flex;
 
 @media screen and (min-width: 375px) {
 .container {
-        width: 375px;
+        width: 407px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 16px;
     }
    
 }
 @media screen and (min-width: 768px) {
 
 .container {
-        width: 768px;
-        padding: 0 32px;
+        width: 800px;
+        /* padding: 0 px; */
     }
         .section-title {
         font-size: 44px;
@@ -191,8 +191,8 @@ display: flex;
 
     
 .container {
-    width: 1280px;
-    padding: 0 100px;
+    width: 1312px;
+    /* padding: 0 100px; */
     }
 .our-colection {
     padding-top: 70px;
@@ -218,7 +218,7 @@ display: flex;
 
 @media screen and (min-width: 1440px) {
 .container {
-    width: 1440px;
+    width: 1472px;
     }
 .our-colection-list {
     width: 1240px;}
